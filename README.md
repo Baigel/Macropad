@@ -1,50 +1,13 @@
-<p align="center">
-<img src="img/yampad_logo.png" alt="Yampad logo" width="450"/>
-<img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
-</p>
+This project is modified from Mattia Dal Ben's YamPad with a few modifications that suit my specific needs (credit: https://github.com/mattdibi/yampad)
 
-<h3 align="center">The Yampad project repository</h3>
+The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)](https://github.com/qmk/qmk_firmware) powered, hot-swappable, RGB-backlighted, OLED featured, mechanical numpad.
 
-<div align="center">
+## Primary Modifications from Original YamPad
+ - Added 2 more switches for an array of 4x5 buttons (no more 2u keys)
+ - Added spot for an IR sensor
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-[![GitHub Issues](https://img.shields.io/github/issues/mattdibi/yampad.svg)](https://github.com/mattdibi/yampad/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/mattdibi/yampad.svg)](https://github.com/mattdibi/yampad/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-</div>
-
----
-
-The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)](https://github.com/qmk/qmk_firmware) powered, hot-swappable, RGB-backlighted, OLED featured, mechanical numpad. This repository will be used to share information about the project and instruction on how to use and assemble the Yampad.
-
-<p align="center">
-<img src="img/yampad.jpg" alt="Yampad PCB" width="600"/>
-</p>
-
-**Designer's bio**: [Mattia Dal Ben (aka u/TiaMaT102)](mailto:matthewdibi@gmail.com) obtained a master's degree in Electrical Engineering with a specialization in Computer Science at the University of Udine. Currently works as a Software Engineer in R&D department for a big IoT and Embedded Computers company.
-
-## Table of contents
-
-- [Rationale](#rationale)
-- [Default Layout](#default-layout)
-- [Bill of materials](#bill-of-materials)
-- [Assembly guide](#assembly-guide)
-- [Firmware](#firmware)
-
-## Rationale
-
-<p align="center">
-<img src="img/yampad2.jpg" alt="Yampad v2" width="600"/>
-</p>
-
-The Yampad is a Macropad/Numpad which uses Cherry MX style mechanical switches laid out in the usual numeric pad layout. The only difference comes from the bottom row, which uses a 4 keys configuration, thus enabling the use of the macropad as a nav cluster.
-
-The name comes from the acronym: **Y**et **A**nother **M**echanical num**PAD**, referring to the disruptive and innovative nature of the project.
-
-The main goal of this project is to have a cheap, easy-to-build, feature-rich numpad which is completely open source.
-
-Features:
+YamPad Features:
 - Cheap to build: the PCB can be manufactured for less than 1$ per piece.
 - Easy to source components.
 - Easy to build.
@@ -54,18 +17,6 @@ Features:
 - RGB backlighting support (optional).
 - OLED 0.91" screen (optional).
 - Completely open-source.
-
-#### Useful links
-
-- [YamPAD on Hackaday.io](https://hackaday.io/project/163491-yampad-feature-packed-open-source-macropad)
-
-## Default Layout
-
-<p align="center">
-<img src="img/BL.png" alt="Layer 1 Yampad" width="250"/>
-<img src="img/NV.png" alt="Layer 2 Yampad" width="250"/>
-<img src="img/FN.png" alt="Layer 3 Yampad" width="250"/>
-</p>
 
 ## Bill of materials
 
@@ -96,83 +47,7 @@ There's no wrong order for the YamPAD assembly with the exception of the Arduino
 8. Add the **OLED screen**
 9. Move to the firmware section and you should be set!
 
-### Assembly details
-
-#### Step 1: WS2812 assembly
-
-<p align="center">
-<img src="img/assembly/step1-a.jpg" alt="Step 1-a" width="250"/>
-<img src="img/assembly/step1-b.jpg" alt="Step 1-b" width="250"/>
-<img src="img/assembly/step1-c.jpg" alt="Step 1-c" width="250"/>
-</p>
-
-#### Step 2: Capacitors assembly
-
-<p align="center">
-<img src="img/assembly/step2-a.jpg" alt="Step 2-a" width="300"/>
-<img src="img/assembly/step2-b.jpg" alt="Step 2-b" width="300"/>
-</p>
-
-#### Step 3: Diodes assembly
-
-<p align="center">
-<img src="img/assembly/step3-a.jpg" alt="Step 3-a" width="250"/>
-<img src="img/assembly/step3-b.jpg" alt="Step 3-b" width="250"/>
-<img src="img/assembly/step3-c.jpg" alt="Step 3-c" width="250"/>
-</p>
-
-#### Step 4: Kailh PCB sockets assembly
-
-<p align="center">
-<img src="img/assembly/step4-a.jpg" alt="Step 4-a" width="300"/>
-<img src="img/assembly/step4-b.jpg" alt="Step 4-b" width="300"/>
-</p>
-
-#### Step 5: Reset switch
-
-<p align="center">
-<img src="img/assembly/step5.jpg" alt="Step 5" width="300"/>
-</p>
-
-#### Step 6: Electrical tape
-
-<p align="center">
-<img src="img/assembly/step6.jpg" alt="Step 6" width="300"/>
-</p>
-
-#### Step 7: Arduino assembly
-
-<p align="center">
-<img src="img/assembly/step7-a.jpg" alt="Step 7-a" width="300"/>
-<img src="img/assembly/step7-b.jpg" alt="Step 7-b" width="300"/>
-</p>
-
 ## Firmware
 
 For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad).
-
-Make example for this keyboard (after setting up your build environment):
-
-```sh
-make yampad:default
 ```
-
-Example of flashing this keyboard:
-
-```sh
-make yampad:default:avrdude
-```
-
-See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
-
-#### Pre-built
-
-I also added a pre-built .HEX file in the 'firmware/' folder [here](https://github.com/mattdibi/yampad/tree/master/firmware) to test the electronics.
-
-### Donations
-
-If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
-
-<p align="center">
-<a href="https://www.paypal.me/MattiaDalBen"><img src="img/donate-button.jpeg" alt="Donate button" width=300/></a>
-</p>
