@@ -1,11 +1,11 @@
-This project is modified from Mattia Dal Ben's YamPad with a few modifications that suit my specific needs (credit: https://github.com/mattdibi/yampad)
+This project is modified from Mattia Dal Ben's YamPad with a few changes that suit my specific needs (credit: https://github.com/mattdibi/yampad)
 
 The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)](https://github.com/qmk/qmk_firmware) powered, hot-swappable, RGB-backlighted, OLED featured, mechanical numpad.
 
 ## Primary Modifications from Original YamPad
  - Added 2 more switches for an array of 4x5 buttons (no more 2u keys)
  - Added spot for an IR sensor
-
+ - Made the unused pins more accessible
 
 ## YamPad Features:
 - Cheap to build: the PCB can be manufactured for less than 1$ per piece.
