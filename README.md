@@ -7,7 +7,7 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
  - Added spot for an IR sensor
 
 
-YamPad Features:
+## YamPad Features:
 - Cheap to build: the PCB can be manufactured for less than 1$ per piece.
 - Easy to source components.
 - Easy to build.
@@ -30,12 +30,12 @@ YamPad Features:
 | 9   | SMD 0805 100nF capacitors            |                                           |
 | 1   | I2C 0.91" 128*32 OLED Display Module | The ones using SSD1306 driver IC over I2C |
 | 1   | 6mm*6mm button switch                |                                           |
-| 1   | YamPAD PCB                           | [Order from PCBWay](https://www.pcbway.com/project/shareproject/YamPAD_mechanical_numpad.html) |
+| 1   | YamPAD/Macropad PCB                  |                                           |
 | 5   | M3 screws                            |                                           |
 
 ## Assembly guide
 
-There's no wrong order for the YamPAD assembly with the exception of the Arduino/OLED/ResetButton. Here I will suggest an order because I found more comfortable to solder the components this way.
+Not necessary to assemble in this order. More details can be found on the official YamPad repository (https://github.com/mattdibi/yampad).
 
 1. Start with soldering the **WS2812 LEDs**. Start by applying solder to a pad, then heat it up while adding the component, finally solder the remaining pads.
 2. Now add the **0805 100nF caps**. Use the same technique as before.
