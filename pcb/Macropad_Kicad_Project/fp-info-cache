@@ -1,0 +1,92 @@
+20311459781914
+Footprints
+ArduinoProMicro
+
+
+0
+24
+24
+Footprints
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Footprints
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+Footprints
+Expansion-Pins
+
+
+0
+12
+12
+Footprints
+Kailh-PCB-Socket-1U-Cutout
+MXALPS
+MXALPS
+0
+2
+2
+Footprints
+Kailh-PCB-Socket-2U
+MXALPS
+MXALPS
+0
+2
+2
+Footprints
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+Footprints
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Footprints
+OSHW-LOGO-M
+OPEN-SOURCE HARDWARE (OSHW) LOGO - MEDIUM - SILKSCREEN
+OPEN-SOURCE HARDWARE (OSHW) LOGO - MEDIUM - SILKSCREEN
+0
+0
+0
+Footprints
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Footprints
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
+2
+Footprints
+yampad-logo
+
+
+0
+0
+0
+IR-Sensor
+TSOP-382
+38 kHz 45 m 2.5-5.5 V Through Hole IR Receiver Module for Remote Control System
+
+0
+3
+3

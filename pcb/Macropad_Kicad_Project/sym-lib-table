@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Symbols-Rescue)(type Legacy)(uri /home/ahmed/Ahmed/GitHub/Macropad/pcb/Macropad_Kicad_Project/macropad_v01-rescue.lib)(options "")(descr ""))
+  (lib (name Symbols-Cache)(type Legacy)(uri /home/ahmed/Ahmed/GitHub/Macropad/pcb/Macropad_Kicad_Project/macropad_v01-cache.lib)(options "")(descr ""))
+  (lib (name IR-Sensor)(type Legacy)(uri /home/ahmed/Ahmed/GitHub/Macropad/pcb/Macropad_Kicad_Project/TSOP38238/TSOP38238.lib)(options "")(descr ""))
+  (lib (name macropad_v01-rescue)(type Legacy)(uri ${KIPRJMOD}/macropad_v01-rescue.lib)(options "")(descr ""))
+)

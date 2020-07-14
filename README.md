@@ -6,6 +6,8 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
  - Added 2 more switches for an array of 4x5 buttons (no more 2u keys)
  - Added spot for an IR sensor
  - Made the unused pins more accessible
+ - Redid the PCB design (basically designed the PCB from scratch, loosely following Mattia Dal Ben's design)
+ - idk yet, still working on it
 
 ## YamPad Features:
 - Cheap to build: the PCB can be manufactured for less than 1$ per piece.
