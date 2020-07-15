@@ -415,7 +415,7 @@ Text GLabel 5850 1850 1    50   Input ~ 0
 COL1
 Text GLabel 6650 1850 1    50   Input ~ 0
 COL2
-Text GLabel 7450 1850 1    50   Input ~ 0
+Text GLabel 7450 1900 1    50   Input ~ 0
 COL3
 Text GLabel 4250 2350 0    50   Input ~ 0
 ROW0
@@ -1070,37 +1070,37 @@ $EndComp
 $Comp
 L IR-Sensor:TSOP38238 U2
 U 1 1 5F0AF320
-P 8600 4000
-F 0 "U2" H 7832 4004 50  0000 R CNN
-F 1 "IR-Sensor" H 7832 4095 50  0000 R CNN
-F 2 "TSOP-382" H 8600 4000 50  0001 L BNN
-F 3 "" H 8600 4000 50  0001 C CNN
-	1    8600 4000
+P 8800 3800
+F 0 "U2" H 8032 3804 50  0000 R CNN
+F 1 "IR-Sensor" H 8032 3895 50  0000 R CNN
+F 2 "TSOP-382" H 8800 3800 50  0001 L BNN
+F 3 "" H 8800 3800 50  0001 C CNN
+	1    8800 3800
 	-1   0    0    1   
 $EndComp
 $Comp
 L macropad_v01-rescue:power_VCC-Symbols-Cache #PWR0101
 U 1 1 5F0B1D13
-P 8100 4200
-F 0 "#PWR0101" H 8100 4050 50  0001 C CNN
-F 1 "power_VCC-Symbols-Cache" V 8118 4327 50  0001 L CNN
-F 2 "" H 8100 4200 50  0001 C CNN
-F 3 "" H 8100 4200 50  0001 C CNN
-	1    8100 4200
+P 8000 4000
+F 0 "#PWR0101" H 8000 3850 50  0001 C CNN
+F 1 "power_VCC-Symbols-Cache" V 8018 4127 50  0001 L CNN
+F 2 "" H 8000 4000 50  0001 C CNN
+F 3 "" H 8000 4000 50  0001 C CNN
+	1    8000 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0102
 U 1 1 5F0B5A3B
-P 8100 3800
-F 0 "#PWR0102" H 8100 3550 50  0001 C CNN
-F 1 "power_GND-Symbols-Cache" V 8105 3673 50  0001 R CNN
-F 2 "" H 8100 3800 50  0001 C CNN
-F 3 "" H 8100 3800 50  0001 C CNN
-	1    8100 3800
+P 8000 3600
+F 0 "#PWR0102" H 8000 3350 50  0001 C CNN
+F 1 "power_GND-Symbols-Cache" V 8005 3473 50  0001 R CNN
+F 2 "" H 8000 3600 50  0001 C CNN
+F 3 "" H 8000 3600 50  0001 C CNN
+	1    8000 3600
 	0    1    1    0   
 $EndComp
-Text GLabel 8100 4000 0    50   Input ~ 0
+Text GLabel 8300 3800 0    50   Input ~ 0
 IR
 Text GLabel 1450 3100 0    50   Input ~ 0
 IR
@@ -1138,72 +1138,6 @@ F 1 "power_VCC-Symbols-Cache" V 8517 2628 50  0001 L CNN
 F 2 "" H 8500 2500 50  0001 C CNN
 F 3 "" H 8500 2500 50  0001 C CNN
 	1    8500 2500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L macropad_v01-rescue:power_VCC-Symbols-Cache #PWR0106
-U 1 1 5F149028
-P 9000 2400
-F 0 "#PWR0106" H 9000 2250 50  0001 C CNN
-F 1 "power_VCC-Symbols-Cache" V 9017 2528 50  0001 L CNN
-F 2 "" H 9000 2400 50  0001 C CNN
-F 3 "" H 9000 2400 50  0001 C CNN
-	1    9000 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L macropad_v01-rescue:power_VCC-Symbols-Cache #PWR0107
-U 1 1 5F14AB9E
-P 9000 2500
-F 0 "#PWR0107" H 9000 2350 50  0001 C CNN
-F 1 "power_VCC-Symbols-Cache" V 9017 2628 50  0001 L CNN
-F 2 "" H 9000 2500 50  0001 C CNN
-F 3 "" H 9000 2500 50  0001 C CNN
-	1    9000 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0104
-U 1 1 5F1274FE
-P 9000 2900
-F 0 "#PWR0104" H 9000 2650 50  0001 C CNN
-F 1 "power_GND-Symbols-Cache" V 9005 2773 50  0001 R CNN
-F 2 "" H 9000 2900 50  0001 C CNN
-F 3 "" H 9000 2900 50  0001 C CNN
-	1    9000 2900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0108
-U 1 1 5F154E40
-P 9000 2800
-F 0 "#PWR0108" H 9000 2550 50  0001 C CNN
-F 1 "power_GND-Symbols-Cache" H 9005 2627 50  0001 C CNN
-F 2 "" H 9000 2800 50  0001 C CNN
-F 3 "" H 9000 2800 50  0001 C CNN
-	1    9000 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0109
-U 1 1 5F15510D
-P 9000 2700
-F 0 "#PWR0109" H 9000 2450 50  0001 C CNN
-F 1 "power_GND-Symbols-Cache" H 9005 2527 50  0001 C CNN
-F 2 "" H 9000 2700 50  0001 C CNN
-F 3 "" H 9000 2700 50  0001 C CNN
-	1    9000 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0110
-U 1 1 5F1553C7
-P 9000 2600
-F 0 "#PWR0110" H 9000 2350 50  0001 C CNN
-F 1 "power_GND-Symbols-Cache" H 9005 2427 50  0001 C CNN
-F 2 "" H 9000 2600 50  0001 C CNN
-F 3 "" H 9000 2600 50  0001 C CNN
-	1    9000 2600
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4450 3850
@@ -1311,17 +1245,6 @@ Wire Wire Line
 Connection ~ 6650 3550
 Wire Wire Line
 	6650 3550 6650 4050
-$Comp
-L macropad_v01-rescue:Expansion-Connector J2
-U 1 1 5F0EB7A0
-P 8750 2250
-F 0 "J2" H 8529 2325 50  0000 C CNN
-F 1 "Expansion-Connector" H 8529 2234 50  0000 C CNN
-F 2 "Footprints:Expansion-Pins" H 8750 2250 50  0001 C CNN
-F 3 "" H 8750 2250 50  0001 C CNN
-	1    8750 2250
-	1    0    0    -1  
-$EndComp
 Text GLabel 8500 2600 0    50   Input ~ 0
 TX
 Wire Wire Line
@@ -1331,25 +1254,13 @@ Wire Wire Line
 Wire Wire Line
 	8500 2400 8600 2400
 Wire Wire Line
-	8900 2400 9000 2400
-Wire Wire Line
-	8900 2500 9000 2500
-Wire Wire Line
-	9000 2600 8900 2600
-Wire Wire Line
-	8900 2700 9000 2700
-Wire Wire Line
-	9000 2800 8900 2800
-Wire Wire Line
-	8900 2900 9000 2900
-Wire Wire Line
 	8600 2900 8500 2900
 Wire Wire Line
 	8500 2800 8600 2800
 Wire Wire Line
 	8500 2700 8600 2700
 $Comp
-L Symbols-Cache:Symbols-Cache_power_GND #PWR034
+L macropad_v01-rescue:Symbols-Cache_power_GND-Symbols-Cache #PWR034
 U 1 1 5CC63631
 P 8850 4850
 F 0 "#PWR034" H 8850 4600 50  0001 C CNN
@@ -1360,7 +1271,7 @@ F 3 "" H 8850 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Symbols-Cache:Symbols-Cache_Device_C C9
+L macropad_v01-rescue:Symbols-Cache_Device_C-Symbols-Cache C9
 U 1 1 5CC6362A
 P 8700 4850
 F 0 "C9" V 8448 4850 50  0000 C CNN
@@ -1407,7 +1318,7 @@ F 3 "" H 8550 4850 50  0001 C CNN
 $EndComp
 Connection ~ 8550 4850
 $Comp
-L Symbols-Cache:Symbols-Cache_power_GND #PWR0112
+L macropad_v01-rescue:Symbols-Cache_power_GND-Symbols-Cache #PWR0112
 U 1 1 5F286519
 P 9750 4850
 F 0 "#PWR0112" H 9750 4600 50  0001 C CNN
@@ -1418,7 +1329,7 @@ F 3 "" H 9750 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Symbols-Cache:Symbols-Cache_Device_C C10
+L macropad_v01-rescue:Symbols-Cache_Device_C-Symbols-Cache C10
 U 1 1 5F28651F
 P 9600 4850
 F 0 "C10" V 9348 4850 50  0000 C CNN
@@ -1466,14 +1377,139 @@ Connection ~ 9450 4850
 Wire Wire Line
 	8850 5150 9150 5150
 $Comp
-L macropad_v01-rescue:power_GND-Symbols-Cache #PWR?
+L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0115
 U 1 1 5F29CA85
 P 3450 1250
-F 0 "#PWR?" H 3450 1000 50  0001 C CNN
+F 0 "#PWR0115" H 3450 1000 50  0001 C CNN
 F 1 "power_GND-Symbols-Cache" H 3455 1077 50  0000 C CNN
 F 2 "" H 3450 1250 50  0001 C CNN
 F 3 "" H 3450 1250 50  0001 C CNN
 	1    3450 1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Symbols-Cache:macropad_v01-rescue_Symbols-Cache_Device_C-Symbols-Cache C11
+U 1 1 5F0F4E6F
+P 8000 3800
+F 0 "C11" H 7885 3800 50  0000 R CNN
+F 1 "macropad_v01-rescue_Symbols-Cache_Device_C-Symbols-Cache" H 7885 3845 50  0001 R CNN
+F 2 "Footprints:Capacitor-(100uF)" H 8038 3650 50  0001 C CNN
+F 3 "" H 8000 3800 50  0001 C CNN
+	1    8000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2900 9000 2900
+Wire Wire Line
+	9000 2800 8900 2800
+Wire Wire Line
+	8900 2700 9000 2700
+Wire Wire Line
+	8900 2500 9000 2500
+Wire Wire Line
+	8900 2400 9000 2400
+$Comp
+L macropad_v01-rescue:Expansion-Connector J2
+U 1 1 5F0EB7A0
+P 8750 2250
+F 0 "J2" H 8529 2325 50  0000 C CNN
+F 1 "Expansion-Connector" H 8529 2234 50  0000 C CNN
+F 2 "Footprints:Expansion-Pins" H 8750 2250 50  0001 C CNN
+F 3 "" H 8750 2250 50  0001 C CNN
+	1    8750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0110
+U 1 1 5F1553C7
+P 9300 2400
+F 0 "#PWR0110" H 9300 2150 50  0001 C CNN
+F 1 "power_GND-Symbols-Cache" H 9305 2227 50  0001 C CNN
+F 2 "" H 9300 2400 50  0001 C CNN
+F 3 "" H 9300 2400 50  0001 C CNN
+	1    9300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0109
+U 1 1 5F15510D
+P 9000 2700
+F 0 "#PWR0109" H 9000 2450 50  0001 C CNN
+F 1 "power_GND-Symbols-Cache" H 9005 2527 50  0001 C CNN
+F 2 "" H 9000 2700 50  0001 C CNN
+F 3 "" H 9000 2700 50  0001 C CNN
+	1    9000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0108
+U 1 1 5F154E40
+P 9000 2800
+F 0 "#PWR0108" H 9000 2550 50  0001 C CNN
+F 1 "power_GND-Symbols-Cache" H 9005 2627 50  0001 C CNN
+F 2 "" H 9000 2800 50  0001 C CNN
+F 3 "" H 9000 2800 50  0001 C CNN
+	1    9000 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L macropad_v01-rescue:power_GND-Symbols-Cache #PWR0104
+U 1 1 5F1274FE
+P 9000 2900
+F 0 "#PWR0104" H 9000 2650 50  0001 C CNN
+F 1 "power_GND-Symbols-Cache" V 9005 2773 50  0001 R CNN
+F 2 "" H 9000 2900 50  0001 C CNN
+F 3 "" H 9000 2900 50  0001 C CNN
+	1    9000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L macropad_v01-rescue:power_VCC-Symbols-Cache #PWR0107
+U 1 1 5F14AB9E
+P 9000 2500
+F 0 "#PWR0107" H 9000 2350 50  0001 C CNN
+F 1 "power_VCC-Symbols-Cache" V 9017 2628 50  0001 L CNN
+F 2 "" H 9000 2500 50  0001 C CNN
+F 3 "" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L macropad_v01-rescue:power_VCC-Symbols-Cache #PWR0106
+U 1 1 5F149028
+P 9000 2400
+F 0 "#PWR0106" H 9000 2250 50  0001 C CNN
+F 1 "power_VCC-Symbols-Cache" V 9017 2528 50  0001 L CNN
+F 2 "" H 9000 2400 50  0001 C CNN
+F 3 "" H 9000 2400 50  0001 C CNN
+	1    9000 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3600 8000 3650
+Connection ~ 8000 3600
+Wire Wire Line
+	8000 3600 8300 3600
+Wire Wire Line
+	8000 3950 8000 4000
+Wire Wire Line
+	8000 4000 8300 4000
+Connection ~ 8000 4000
+$Comp
+L macropad_v01-rescue:Device_C-Symbols-Cache C12
+U 1 1 5F1A296D
+P 9150 2400
+F 0 "C12" V 8990 2400 50  0000 C CNN
+F 1 "Device_C-Symbols-Cache" V 8989 2400 50  0001 C CNN
+F 2 "Footprints:Capacitor-(100uF)" H 9188 2250 50  0001 C CNN
+F 3 "" H 9150 2400 50  0001 C CNN
+	1    9150 2400
+	0    1    1    0   
+$EndComp
+Connection ~ 9000 2400
+Wire Wire Line
+	9300 2600 9300 2400
+Wire Wire Line
+	8900 2600 9300 2600
+Connection ~ 9300 2400
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-(module Expansion-Pins (layer F.Cu) (tedit 5F0AB779)
+(module Expansion-Pins (layer F.Cu) (tedit 5F0E6C47)
   (fp_text reference REF** (at 12.7 -7.62) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
