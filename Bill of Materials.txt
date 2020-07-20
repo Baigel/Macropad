@@ -1,0 +1,39 @@
+JLCPCB
+ - Custom PCBs from jlcpcb; the zip file that must be uploaded can be found at [https://github.com/Baigel/Macropad/blob/master/pcb/Macropad_Gerber_Files.zip]; the default settings on https://cart.jlcpcb.com/ are fine although the dimensions must be 100mm by 100mm
+
+ SparkFun
+ - Pro Micro (microcontroller) (a.k.a. SparkFun Pro Micro)
+https://www.sparkfun.com/products/15795
+
+ - 10x WS2812B RGB LEDs (I have included multiple sources below, digikey/sparkfun is easiest, but price/availability is a little iffy)
+https://www.sparkfun.com/products/13667
+https://core-electronics.com.au/smd-led-rgb-ws2812b-strip-of-10.html
+https://www.digikey.com.au/product-detail/en/COM-16347/1568-COM-16347CT-ND/12149781/?itemSeq=332673955
+
+KBD Fans
+ - 20x Switches (Kailh Speed Copper) (each order comes with 10, so only need to set quantity to 2)
+https://kbdfans.com/products/kailh-speed-switches?variant=7133813932090
+
+ - 20x Kailh PCB sockets CPG151101S11
+https://kbdfans.com/products/mechanical-keyboard-switches-kailh-pcb-socket
+
+BangGood
+ - 1x I2C 0.91" 128*32 OLED Display Module (The ones using SSD1306 driver IC over I2C)
+https://au.banggood.com/0_91-Inch-128x32-IIC-I2C-Blue-OLED-LCD-Display-DIY-Oled-Module-SSD1306-Driver-IC-DC-3_3V-5V-p-1140506.html?cur_warehouse=CN
+
+Digikey
+ - 1x 6mm*6mm button switch
+https://www.digikey.com.au/product-detail/en/e-switch/TL3342F160QG-TR/EG2531CT-ND/379004
+
+ - 30x SMD 0805 100nF capacitors (10 spares because these are tiny/cheap and are easily lost)
+https://www.digikey.com.au/product-detail/en/kemet/C0805C104Z5VACTU/399-1177-1-ND/411452
+
+ - 30x SOD-123 Diodes (1 per switch) (1N4148W) (10 spares because these are tiny/cheap and are easily lost)
+https://www.digikey.com.au/product-detail/en/diodes-incorporated/1N4148W-13-F/1N4148W-13FDICT-ND/2242774
+
+ - 6x Standoffs: (not sure if this is what is needed, but with a couple of m3 screws you should be able to work something out)
+https://www.digikey.com.au/product-detail/en/MTS-8/RPC1574-ND/392815/?itemSeq=332685766
+
+
+Price Estimate: $5 [PCB] + $8 [standoffs] + 2x$20 [Pro Micro] + 2x$3 [Switches] + 20x$0.1 [Sockets] + $4 [OLED Display] + $1 [Reset Button] + 30x$0.15 [Capacitors] + 30x$0.25 [Diodes] + $9 [RGB LEDs] + $8 [Digikey Ruler] = $92
+
