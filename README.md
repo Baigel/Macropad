@@ -5,9 +5,9 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
 ## Primary Modifications from Original YamPad
  - Added 2 more switches for an array of 4x5 buttons (no more 2u keys)
  - Added spot for an IR sensor
- - Made the unused pins more accessible
- - Redid the PCB design (basically designed the PCB from scratch, loosely following Mattia Dal Ben's design)
- - idk yet, still working on it
+ - Made the unused pins more accessible (added them as expansion pins on the side; with room for a decoupling capacitor)
+ - Redid the PCB design (basically designed the PCB from scratch, used Mattia Dal Ben's design as a guide)
+ - Different mounting holes (in hindsight, the Pro Micro may cover the holes in the top right - Oops!)
 
 ## YamPad Features:
 - Cheap to build: the PCB can be manufactured for less than 1$ per piece.
@@ -35,6 +35,8 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
 | 1   | YamPAD/Macropad PCB                  |                                           |
 | 5   | M3 screws                            |                                           |
 
+Note that I have included my personal shopping list (with links) in /Macropad/Bill_of_Materials.txt for reference
+
 ## Assembly guide
 
 Not necessary to assemble in this order. More details can be found on the official YamPad repository (https://github.com/mattdibi/yampad).
@@ -52,4 +54,3 @@ Not necessary to assemble in this order. More details can be found on the offici
 ## Firmware
 
 For now the firmware is available through mattdibi's [QMK firmware repository fork](https://github.com/mattdibi/qmk_firmware/tree/yampad).
-```
