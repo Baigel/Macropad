@@ -25,7 +25,7 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
 | Qty | Item                                 | Notes                                     |
 |-----|--------------------------------------|-------------------------------------------|
 | 1   | Arduino Pro Micro (ATmega32u4)       | a.k.a. SparkFun Pro Micro                 |
-| 20  | Cherry MX compatible swtiches        |                                           |
+| 20  | Cherry MX compatible switches        |                                           |
 | 20  | SOD-123 1N4148/1N4148W diodes        |                                           |
 | 20  | Kailh PCB sockets CPG151101S11       |                                           |
 | 10  | WS2812B RGB LEDs                     |                                           |
