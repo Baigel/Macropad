@@ -25,11 +25,11 @@ The Yampad project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware
 | Qty | Item                                 | Notes                                     |
 |-----|--------------------------------------|-------------------------------------------|
 | 1   | Arduino Pro Micro (ATmega32u4)       | a.k.a. SparkFun Pro Micro                 |
-| 18  | Cherry MX compatible swtiches        |                                           |
-| 18  | SOD-123 1N4148/1N4148W diodes        |                                           |
-| 18  | Kailh PCB sockets CPG151101S11       |                                           |
-| 9   | WS2812B RGB LEDs                     |                                           |
-| 9   | SMD 0805 100nF capacitors            |                                           |
+| 20  | Cherry MX compatible swtiches        |                                           |
+| 20  | SOD-123 1N4148/1N4148W diodes        |                                           |
+| 20  | Kailh PCB sockets CPG151101S11       |                                           |
+| 10  | WS2812B RGB LEDs                     |                                           |
+| 10  | SMD 0805 100nF capacitors            |                                           |
 | 1   | I2C 0.91" 128*32 OLED Display Module | The ones using SSD1306 driver IC over I2C |
 | 1   | 6mm*6mm button switch                |                                           |
 | 1   | YamPAD/Macropad PCB                  |                                           |
